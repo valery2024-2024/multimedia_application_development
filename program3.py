@@ -7,7 +7,7 @@ current_index = 0
 photos = []  # кеш PhotoImage, щоб картинки не зникали
 root = Tk()
 root.title("Галерея зображень")
-root.geometry("800x600")
+root.geometry("300x200")
 
 # Верх: місце під зображення
 img_label = Label(root, bg="white")
